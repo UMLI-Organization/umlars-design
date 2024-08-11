@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence2.di" element2="/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence2.notation" element3="/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence2.uml" element4="/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence2_pl_PL.properties" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1720729686819"/>
+</session>

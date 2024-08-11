@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<di:SashWindowsMngr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi">
+  <sashModel currentSelection="//@sashModel/@windows.0/@children.0" restoreActivePage="true">
+    <windows>
+      <children xsi:type="di:TabFolder" currentSelection="//@sashModel/@windows.0/@children.0/@children.1">
+        <children>
+          <emfPageIdentifier href="papyrus.welcome:dynamic#/"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.notation#_FSh84BnYEe-hRNyRdje1iQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.notation#_va4D4D_FEe-8k4uspykRNg"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.notation#_HAmYAD_GEe-8k4uspykRNg"/>
+        </children>
+      </children>
+    </windows>
+  </sashModel>
+</di:SashWindowsMngr>

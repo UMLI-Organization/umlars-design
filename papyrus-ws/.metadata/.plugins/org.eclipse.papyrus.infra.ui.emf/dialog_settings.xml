@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_LZzD0BndEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_lItSABndEe-hRNyRdje1iQ"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_4IANkBndEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_utwxoED2Ee-zbv034BQXgQ"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_SKMZkBndEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_8W2MkBndEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml:uml:Behavior:method">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_QIrNwBndEe-hRNyRdje1iQ"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_SKMZkBndEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:PartDecomposition:decomposedAs">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:ConnectableElement:represents">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml#__yvkUxngEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml#_y63_YhnzEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml#_y64mcBnzEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history_container_platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:ConnectableElement:represents">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:NamedElement:signature">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml#_38JmEBnhEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml#_PNIEIBngEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:InstanceSpecification:instance">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:Namespace:context">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.uml:uml:Element:constrainedElement">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_4IANkBndEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:ConnectableElement:represents">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_JW-2gED4Ee-zbv034BQXgQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_BJcNUED4Ee-zbv034BQXgQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_7y9Q0ED3Ee-zbv034BQXgQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_y63_YhnzEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_y64mcBnzEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#__yvkUxngEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#__yvkUxngEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_y63_YhnzEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model/eclipse-papyrus-car-model.uml#_y64mcBnzEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:NamedElement:signature">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_xcwRgD_EEe-8k4uspykRNg"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_4y6g4BnfEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_PNIEIBngEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_38JmEBnhEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_YKN2QD_EEe-8k4uspykRNg"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_ETvQgD_DEe-tOdNYlDozQA"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:PartDecomposition:decomposedAs">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Behavior:method">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history_container_platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:ConnectableElement:represents">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_trH9gD_FEe-8k4uspykRNg"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_F7PScD_GEe-8k4uspykRNg"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history_container_uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Type:type">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_LZzD0BndEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history_container_uml:InstanceSpecification:instance">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Classifier:classifier">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_lItSABndEe-hRNyRdje1iQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_4IANkBndEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Classifier:classifier">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:InstanceSpecification:instance">
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Namespace:context">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_9magkUD5Ee-zbv034BQXgQ"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_F7PScD_GEe-8k4uspykRNg"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Element:constrainedElement">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Namespace:context">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_F7PScD_GEe-8k4uspykRNg"/>
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml:uml:Interaction:refersTo">
+		<section name="History">
+			<list key="PreviousSelection">
+				<item value="platform:/resource/eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model-with-sequence.uml#_trH9gD_FEe-8k4uspykRNg"/>
+			</list>
+		</section>
+	</section>
+</section>

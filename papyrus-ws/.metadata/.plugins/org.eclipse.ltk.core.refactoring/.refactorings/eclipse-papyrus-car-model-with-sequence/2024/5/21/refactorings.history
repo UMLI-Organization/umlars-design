@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;eclipse-papyrus-car-model-with-sequence/eclipse-papyrus-car-model.di&apos; to &apos;eclipse-papyrus-car-model-with-sequence.di&apos;" description="Rename resource &apos;eclipse-papyrus-car-model.di&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="eclipse-papyrus-car-model.di" name="eclipse-papyrus-car-model-with-sequence.di" stamp="1716747108995" updateReferences="true"/>
+</session>

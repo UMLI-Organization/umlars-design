@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAGPuSMjhiXQ2vI=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAGPq51VWuu7S/g=" name="Person" visibility="package" isAbstract="true" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAGPq6X4lu00Npg=" name="car_ownership" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAGPq6X4lu01Ewo=" name="owner" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAGPq51VWuu7S/g=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+						<lowerValue xmi:id="AAAAAAGPuSMjiCXTrbM=" xmi:type="uml:LiteralInteger" value="1"/>
+						<upperValue xmi:id="AAAAAAGPuSMjiCXU10o=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAGPq6X4lu02ArM=" name="car" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAGPq6P74ewSp88=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+						<lowerValue xmi:id="AAAAAAGPuSMjiCXV5Ws=" xmi:type="uml:LiteralInteger" value="0"/>
+						<upperValue xmi:id="AAAAAAGPuSMjiCXWfwo=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAGPq6X4lu01Ewo="/>
+					<memberEnd xmi:idref="AAAAAAGPq6X4lu02ArM="/>
+				</ownedMember>
+				<xmi:Extension extender="StarUML">
+					<stereotype value=""/>
+				</xmi:Extension>
+				<ownedAttribute xmi:id="AAAAAAGPq9pvBA9Ji0k=" name="gender" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq9q11Q+M8Zw=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<interfaceRealization xmi:id="AAAAAAGPq7G9+/DmkTQ=" visibility="public" xmi:type="uml:InterfaceRealization" implementingClassifier="AAAAAAGPq51VWuu7S/g=" contract="AAAAAAGPq6OvgOvoNq4="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGPq6OvgOvoNq4=" name="Movable" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Interface">
+				<ownedOperation xmi:id="AAAAAAGPq9cmkQ4Oz2I=" name="move" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation"/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGPq6P74ewSp88=" name="Car" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedAttribute xmi:id="AAAAAAGPq9QgWQtMrRw=" name="yearOfProduction" visibility="private" isStatic="false" isLeaf="false" type="AAAAAAGPq9RX+gub/B4=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAGPq9TNCwxotL0=" name="drive" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAGPq9Yvqw154O8=" name="driver" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq51VWuu7S/g=" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+				<interfaceRealization xmi:id="AAAAAAGPq7HsCfHzQ3s=" visibility="public" xmi:type="uml:InterfaceRealization" implementingClassifier="AAAAAAGPq6P74ewSp88=" contract="AAAAAAGPq6OvgOvoNq4="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGPq6Q+Q+w8rDQ=" name="Driver" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<generalization xmi:id="AAAAAAGPq6R2V+x/0To=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAGPq6Q+Q+w8rDQ=" general="AAAAAAGPq51VWuu7S/g="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGPq6SjZOyQ7PY=" name="Wheel" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAGPq7Iz+/OP3Ik=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAGPq7Iz+/OQH1Y=" name="wheel" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="shared" isDerived="false" isID="false" type="AAAAAAGPq6SjZOyQ7PY=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+						<lowerValue xmi:id="AAAAAAGPuSMjiyXZzZc=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+						<upperValue xmi:id="AAAAAAGPuSMjiyXa2ko=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAGPq7Iz+/ORfeg=" name="car" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAGPq6P74ewSp88=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+						<lowerValue xmi:id="AAAAAAGPuSMjiyXbiv4=" xmi:type="uml:LiteralInteger" value="0"/>
+						<upperValue xmi:id="AAAAAAGPuSMjiyXceGk=" xmi:type="uml:LiteralInteger" value="1"/>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAGPq7Iz+/OQH1Y="/>
+					<memberEnd xmi:idref="AAAAAAGPq7Iz+/ORfeg="/>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAGPq7M05vuI4ts=" name="colour" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq8QrkPzId3o=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAGPq9MA3gncCNc=" name="circumference" visibility="protected" isStatic="false" isLeaf="false" type="AAAAAAGPq9POfwpz/Uc=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedOperation xmi:id="AAAAAAGPq8gnVv8s0vI=" name="isFlat" visibility="protected" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+					<ownedParameter xmi:id="AAAAAAGPq9JYEgdl0vw=" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq9I+XQaY150=" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+				</ownedOperation>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAGPq8QrkPzId3o=" name="String" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:PrimitiveType"/>
+			<packagedElement xmi:id="AAAAAAGPq9I+XQaY150=" name="Boolean" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:PrimitiveType"/>
+			<packagedElement xmi:id="AAAAAAGPq9POfwpz/Uc=" name="Real" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:PrimitiveType"/>
+			<packagedElement xmi:id="AAAAAAGPq9RX+gub/B4=" name="Datetime" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:DataType"/>
+			<packagedElement xmi:id="AAAAAAGPq9q11Q+M8Zw=" name="Gender" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Enumeration"/>
+			<packagedElement xmi:id="AAAAAAGPtY8WkRlmrSM=" name="car-model-collaboration" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+				<ownedMember xmi:id="AAAAAAGPtY8Wkhlny+k=" name="car-model-interaction" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+					<lifeline xmi:id="AAAAAAGPtZK5ZiAfJ+E=" name="person" visibility="package" xmi:type="uml:Lifeline" represents="AAAAAAGPtZK5ZSAenFI="/>
+					<lifeline xmi:id="AAAAAAGPtZL6QyA/cG4=" name="car" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAGPtZL6QyA+Rz4="/>
+					<lifeline xmi:id="AAAAAAGPtZoBwiKXo60=" name="wheel_summer" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAGPtZoBwiKWFUw="/>
+					<lifeline xmi:id="AAAAAAGPtZxBpSMJmCA=" name="wheel_winter" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAGPtZxBpSMIbWQ="/>
+					<message xmi:id="AAAAAAGPtZyuNSMsj24=" name="change_wheels" visibility="public" xmi:type="uml:Message" messageSort="deleteMessage" messageKind="complete" receiveEvent="AAAAAAGPuSMjjSXeUAQ=" sendEvent="AAAAAAGPuSMjjSXdzfI="/>
+					<message xmi:id="AAAAAAGPtZoB9yK1InY=" name="change_wheels" visibility="public" xmi:type="uml:Message" messageSort="createMessage" messageKind="complete" receiveEvent="AAAAAAGPuSMjjSXgXps=" sendEvent="AAAAAAGPuSMjjSXfu7I="/>
+					<message xmi:id="AAAAAAGPtaFxiCQx414=" name="drive" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" signature="AAAAAAGPq9TNCwxotL0=" receiveEvent="AAAAAAGPuSMjjSXiTn8=" sendEvent="AAAAAAGPuSMjjSXhkzU="/>
+					<message xmi:id="AAAAAAGPtZsy5yLjCnM=" name="is_flat" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" signature="AAAAAAGPq8gnVv8s0vI=" receiveEvent="AAAAAAGPuSMjjSXkBn8=" sendEvent="AAAAAAGPuSMjjSXjuEE="/>
+					<message xmi:id="AAAAAAGPtaCOsiP37Ns=" name="is_flat" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAGPuSMjjSXmcp4=" sendEvent="AAAAAAGPuSMjjSXlecA="/>
+					<message xmi:id="AAAAAAGPuRTJ/SW5Pak=" name="move" visibility="public" xmi:type="uml:Message" messageSort="asynchCall" messageKind="complete" signature="AAAAAAGPq9cmkQ4Oz2I=" receiveEvent="AAAAAAGPuSMjjSXo95M=" sendEvent="AAAAAAGPuSMjjSXnOr8="/>
+					<message xmi:id="AAAAAAGPtalb/iTZY5w=" name="final_destinantion" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="complete" receiveEvent="AAAAAAGPuSMjjSXqs1U=" sendEvent="AAAAAAGPuSMjjSXpjIo="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXdzfI=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXeUAQ=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZxBpSMJmCA="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXfu7I=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXgXps=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZoBwiKXo60="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXhkzU=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZK5ZiAfJ+E="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXiTn8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXjuEE=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXkBn8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZoBwiKXo60="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXlecA=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZoBwiKXo60="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXmcp4=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXnOr8=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXo95M=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZK5ZiAfJ+E="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXpjIo=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZL6QyA/cG4="/>
+					<fragment xmi:id="AAAAAAGPuSMjjSXqs1U=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAGPtZK5ZiAfJ+E="/>
+					<fragment xmi:id="AAAAAAGPtaOEPSRqKIM=" name="is_flat" visibility="public" isReentrant="true" xmi:type="uml:CombinedFragment" interactionOperator="alt">
+						<operand xmi:id="AAAAAAGPtaOEPSRrEl0=" name="Can%20move" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand">
+							<guard xmi:id="AAAAAAGPuSMjjiXr7Zs=" xmi:type="uml:Constraint" specification="No"/>
+						</operand>
+						<operand xmi:id="AAAAAAGPtaP3BiSYZ8E=" name="Cannot%20move" visibility="public" isReentrant="true" xmi:type="uml:InteractionOperand">
+							<guard xmi:id="AAAAAAGPuSMjjiXswbc=" xmi:type="uml:Constraint" specification="Yes"/>
+						</operand>
+					</fragment>
+				</ownedMember>
+				<ownedAttribute xmi:id="AAAAAAGPtZK5ZSAenFI=" name="person-role" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq51VWuu7S/g=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAGPtZL6QyA+Rz4=" name="car-role" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq6P74ewSp88=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAGPtZoBwiKWFUw=" name="wheel_summer-role" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq6SjZOyQ7PY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+				<ownedAttribute xmi:id="AAAAAAGPtZxBpSMIbWQ=" name="wheel_winter-role" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAGPq6SjZOyQ7PY=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

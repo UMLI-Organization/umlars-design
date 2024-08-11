@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FSh84BnYEe-hRNyRdje1iQ" type="PapyrusUMLClassDiagram" name="eclipse-papyrus-car-model-class-diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_LZ4jYBndEe-hRNyRdje1iQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LZ4jYhndEe-hRNyRdje1iQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LZ4jYxndEe-hRNyRdje1iQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LZ4jZBndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LZ4jZRndEe-hRNyRdje1iQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_p1hCkBnhEe-hRNyRdje1iQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="eclipse-papyrus-car-model.uml#_p1WDcBnhEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_p1hCkRnhEe-hRNyRdje1iQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wAeI8BnhEe-hRNyRdje1iQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="eclipse-papyrus-car-model.uml#_wAEgUBnhEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wAeI8RnhEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LZ4jZhndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LZ4jZxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LZ4jaBndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LZ4jaRndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LZ4jahndEe-hRNyRdje1iQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_38aEwBnhEe-hRNyRdje1iQ" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="eclipse-papyrus-car-model.uml#_38JmEBnhEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_38aEwRnhEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LZ4jaxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LZ4jbBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LZ4jbRndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LZ4jbhndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LZ4jbxndEe-hRNyRdje1iQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LZ4jcBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_LZ4jcRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_LZ4jchndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LZ4jcxndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="eclipse-papyrus-car-model.uml#_LZzD0BndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LZ4jYRndEe-hRNyRdje1iQ" x="720" y="340"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QIrNwRndEe-hRNyRdje1iQ" type="DataType_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QIrNwxndEe-hRNyRdje1iQ" type="DataType_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_QIrNxBndEe-hRNyRdje1iQ" type="DataType_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QIrNxRndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QIrNxhndEe-hRNyRdje1iQ" type="DataType_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QIrNxxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QIrNyBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QIrNyRndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QIrNyhndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QIrNyxndEe-hRNyRdje1iQ" type="DataType_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_QIrNzBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QIrNzRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QIrNzhndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QIrNzxndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:DataType" href="eclipse-papyrus-car-model.uml#_QIrNwBndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QIrNwhndEe-hRNyRdje1iQ" x="960" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SKR5IBndEe-hRNyRdje1iQ" type="Enumeration_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SKR5IhndEe-hRNyRdje1iQ" type="Enumeration_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SKR5IxndEe-hRNyRdje1iQ" type="Enumeration_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SKR5JBndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SKR5JRndEe-hRNyRdje1iQ" type="Enumeration_LiteralCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SKR5JhndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SKR5JxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SKR5KBndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SKR5KRndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Enumeration" href="eclipse-papyrus-car-model.uml#_SKMZkBndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SKR5IRndEe-hRNyRdje1iQ" x="960" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_c2N3YBndEe-hRNyRdje1iQ" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c2N3YhndEe-hRNyRdje1iQ" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c2N3YxndEe-hRNyRdje1iQ" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c2N3ZBndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c2N3ZRndEe-hRNyRdje1iQ" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c2N3ZhndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c2N3ZxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c2N3aBndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c2N3aRndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c2N3ahndEe-hRNyRdje1iQ" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_4zLmoBnfEe-hRNyRdje1iQ" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="eclipse-papyrus-car-model.uml#_4y6g4BnfEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4zLmoRnfEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c2N3axndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c2N3bBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c2N3bRndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c2N3bhndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c2N3bxndEe-hRNyRdje1iQ" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c2N3cBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c2N3cRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c2N3chndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c2N3cxndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Interface" href="eclipse-papyrus-car-model.uml#_c2LbIBndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c2N3YRndEe-hRNyRdje1iQ" x="60" y="100" width="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lIvHMBndEe-hRNyRdje1iQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lIvuQBndEe-hRNyRdje1iQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lIvuQRndEe-hRNyRdje1iQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lIvuQhndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lIvuQxndEe-hRNyRdje1iQ" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lIvuRBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lIvuRRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lIvuRhndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIvuRxndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lIvuSBndEe-hRNyRdje1iQ" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lIvuSRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lIvuShndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lIvuSxndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIvuTBndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lIvuTRndEe-hRNyRdje1iQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lIvuThndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lIvuTxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lIvuUBndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIvuURndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="eclipse-papyrus-car-model.uml#_lItSABndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lIvHMRndEe-hRNyRdje1iQ" x="740" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4IBbsBndEe-hRNyRdje1iQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4ICCwBndEe-hRNyRdje1iQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4ICCwRndEe-hRNyRdje1iQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4ICCwhndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4ICCwxndEe-hRNyRdje1iQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="__OwRABnhEe-hRNyRdje1iQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="eclipse-papyrus-car-model.uml#__Ol48BnhEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__OwRARnhEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4ICCxBndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4ICCxRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4ICCxhndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ICCxxndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4ICCyBndEe-hRNyRdje1iQ" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_PNTqUBngEe-hRNyRdje1iQ" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="eclipse-papyrus-car-model.uml#_PNIEIBngEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PNTqURngEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4ICCyRndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4ICCyhndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4ICCyxndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ICCzBndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4ICCzRndEe-hRNyRdje1iQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4ICCzhndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4ICCzxndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4ICC0BndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4ICC0RndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="eclipse-papyrus-car-model.uml#_4IANkBndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4IBbsRndEe-hRNyRdje1iQ" x="240" y="340"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_8W4BwBndEe-hRNyRdje1iQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8W4o0BndEe-hRNyRdje1iQ" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8W4o0RndEe-hRNyRdje1iQ" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8W4o0hndEe-hRNyRdje1iQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8W4o0xndEe-hRNyRdje1iQ" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_b100kBnhEe-hRNyRdje1iQ" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="eclipse-papyrus-car-model.uml#_b1caEBnhEe-hRNyRdje1iQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b100kRnhEe-hRNyRdje1iQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8W5P4BndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8W5P4RndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8W5P4hndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8W5P4xndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8W5P5BndEe-hRNyRdje1iQ" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8W5P5RndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8W5P5hndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8W5P5xndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8W5P6BndEe-hRNyRdje1iQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8W5P6RndEe-hRNyRdje1iQ" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8W5P6hndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8W5P6xndEe-hRNyRdje1iQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8W5P7BndEe-hRNyRdje1iQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8W5P7RndEe-hRNyRdje1iQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="eclipse-papyrus-car-model.uml#_8W2MkBndEe-hRNyRdje1iQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8W4BwRndEe-hRNyRdje1iQ" x="300" y="40"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_FSh84RnYEe-hRNyRdje1iQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_FSh84hnYEe-hRNyRdje1iQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_FSh84xnYEe-hRNyRdje1iQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="eclipse-papyrus-car-model.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="eclipse-papyrus-car-model.uml#_80muUBnXEe-hRNyRdje1iQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_oKwtwBndEe-hRNyRdje1iQ" type="Abstraction_Edge" source="_lIvHMBndEe-hRNyRdje1iQ" target="_8W4BwBndEe-hRNyRdje1iQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oKxU0BndEe-hRNyRdje1iQ" type="Abstraction_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_usy3YBndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oKxU0RndEe-hRNyRdje1iQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oKxU0hndEe-hRNyRdje1iQ" type="Abstraction_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_utDWEBndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oKxU0xndEe-hRNyRdje1iQ" x="15" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oKwtwRndEe-hRNyRdje1iQ"/>
+    <element xmi:type="uml:Abstraction" href="eclipse-papyrus-car-model.uml#_oKtqcBndEe-hRNyRdje1iQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oKwtwhndEe-hRNyRdje1iQ" points="[520, 155, -643984, -643984]$[0, 0, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_utT0wBndEe-hRNyRdje1iQ" id="(0.0,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_utT0wRndEe-hRNyRdje1iQ" id="(1.0,0.6)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qLaW4BndEe-hRNyRdje1iQ" type="Realization_Edge" source="_8W4BwBndEe-hRNyRdje1iQ" target="_c2N3YBndEe-hRNyRdje1iQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qLaW4xndEe-hRNyRdje1iQ" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qeec0BndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qLaW5BndEe-hRNyRdje1iQ" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qLaW5RndEe-hRNyRdje1iQ" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_qerRIBndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qLblABndEe-hRNyRdje1iQ" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qLaW4RndEe-hRNyRdje1iQ"/>
+    <element xmi:type="uml:Realization" href="eclipse-papyrus-car-model.uml#_qLYhsBndEe-hRNyRdje1iQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qLaW4hndEe-hRNyRdje1iQ" points="[439, 160, -643984, -643984]$[60, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qMSgoBndEe-hRNyRdje1iQ" id="(0.0,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qMSgoRndEe-hRNyRdje1iQ" id="(1.0,0.5309734513274337)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vmkYABndEe-hRNyRdje1iQ" type="Realization_Edge" source="_4IBbsBndEe-hRNyRdje1iQ" target="_c2N3YBndEe-hRNyRdje1iQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vmkYAxndEe-hRNyRdje1iQ" type="Realization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0H_UwBndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vmkYBBndEe-hRNyRdje1iQ" x="-1" y="38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vmkYBRndEe-hRNyRdje1iQ" type="Realization_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0IIesBndEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vmkYBhndEe-hRNyRdje1iQ" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vmkYARndEe-hRNyRdje1iQ"/>
+    <element xmi:type="uml:Realization" href="eclipse-papyrus-car-model.uml#_vmjJ4BndEe-hRNyRdje1iQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vmkYAhndEe-hRNyRdje1iQ" points="[320, 440, -643984, -643984]$[120, 213, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vnIYsBndEe-hRNyRdje1iQ" id="(0.0,0.6)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vnIYsRndEe-hRNyRdje1iQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__zAqEBngEe-hRNyRdje1iQ" type="Association_Edge" source="_4IBbsBndEe-hRNyRdje1iQ" target="_LZ4jYBndEe-hRNyRdje1iQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtYBngEe-hRNyRdje1iQ" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AWH-MBnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtYRngEe-hRNyRdje1iQ" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtYhngEe-hRNyRdje1iQ" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AWVZkBnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtYxngEe-hRNyRdje1iQ" x="-1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtZBngEe-hRNyRdje1iQ" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AWoUgBnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtZRngEe-hRNyRdje1iQ" x="40" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtZhngEe-hRNyRdje1iQ" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AW72gBnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtZxngEe-hRNyRdje1iQ" x="-41" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtaBngEe-hRNyRdje1iQ" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AXSb0BnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtaRngEe-hRNyRdje1iQ" x="38" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__zDtahngEe-hRNyRdje1iQ" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AXpBIBnhEe-hRNyRdje1iQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__zDtaxngEe-hRNyRdje1iQ" x="-39" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__zAqERngEe-hRNyRdje1iQ"/>
+    <element xmi:type="uml:Association" href="eclipse-papyrus-car-model.uml#__yvkUBngEe-hRNyRdje1iQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__zAqEhngEe-hRNyRdje1iQ" points="[442, 400, -643984, -643984]$[700, 320, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z6B8BngEe-hRNyRdje1iQ" id="(1.0,0.5769230769230769)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__z6B8RngEe-hRNyRdje1iQ" id="(0.0,0.6)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_y6-tEBnzEe-hRNyRdje1iQ" type="Association_Edge" source="_8W4BwBndEe-hRNyRdje1iQ" target="_4IBbsBndEe-hRNyRdje1iQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tExnzEe-hRNyRdje1iQ" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tFBnzEe-hRNyRdje1iQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tFRnzEe-hRNyRdje1iQ" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tFhnzEe-hRNyRdje1iQ" x="8" y="-67"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tFxnzEe-hRNyRdje1iQ" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tGBnzEe-hRNyRdje1iQ" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tGRnzEe-hRNyRdje1iQ" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tGhnzEe-hRNyRdje1iQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tGxnzEe-hRNyRdje1iQ" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tHBnzEe-hRNyRdje1iQ" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_y6-tHRnzEe-hRNyRdje1iQ" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_y6-tHhnzEe-hRNyRdje1iQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_y6-tERnzEe-hRNyRdje1iQ"/>
+    <element xmi:type="uml:Association" href="eclipse-papyrus-car-model.uml#_y63YUBnzEe-hRNyRdje1iQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y6-tEhnzEe-hRNyRdje1iQ" points="[460, 144, -643984, -643984]$[490, 380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y7SPEBnzEe-hRNyRdje1iQ" id="(0.935672514619883,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y7SPERnzEe-hRNyRdje1iQ" id="(0.88,0.0)"/>
+  </edges>
+</notation:Diagram>
