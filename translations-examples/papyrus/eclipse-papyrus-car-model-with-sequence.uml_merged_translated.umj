@@ -1,0 +1,331 @@
+{
+  "id": "1476ac4d-793f-4dcf-a6f2-5b7b1095cd44",
+  "name": "eclipse-papyrus-car-model-with-sequence",
+  "visibility": "public",
+  "elements": {
+    "classes": [
+      {
+        "id": "_LZzD0BndEe-hRNyRdje1iQ",
+        "name": "Wheel",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "_p1WDcBnhEe-hRNyRdje1iQ",
+            "name": "colour",
+            "visibility": "public",
+            "type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          },
+          {
+            "id": "_wAEgUBnhEe-hRNyRdje1iQ",
+            "name": "circumference",
+            "visibility": "protected",
+            "type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [
+          {
+            "id": "_38JmEBnhEe-hRNyRdje1iQ",
+            "name": "isFlat",
+            "visibility": "package",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "_lItSABndEe-hRNyRdje1iQ",
+        "name": "Driver",
+        "visibility": "public",
+        "attributes": [],
+        "operations": [
+          {
+            "id": "_ETvQgD_DEe-tOdNYlDozQA",
+            "name": "drive",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "_4IANkBndEe-hRNyRdje1iQ",
+        "name": "Car",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "_nYwsQBnhEe-hRNyRdje1iQ",
+            "name": "wheel",
+            "visibility": null,
+            "type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          },
+          {
+            "id": "__Ol48BnhEe-hRNyRdje1iQ",
+            "name": "yearOfProduction",
+            "visibility": "private",
+            "type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [
+          {
+            "id": "_PNIEIBngEe-hRNyRdje1iQ",
+            "name": "drive",
+            "visibility": null,
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          },
+          {
+            "id": "_YKN2QD_EEe-8k4uspykRNg",
+            "name": "canDrive",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          },
+          {
+            "id": "_xcwRgD_EEe-8k4uspykRNg",
+            "name": "changeWheels",
+            "visibility": null,
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "_8W2MkBndEe-hRNyRdje1iQ",
+        "name": "Person",
+        "visibility": "package",
+        "attributes": [
+          {
+            "id": "_b1caEBnhEe-hRNyRdje1iQ",
+            "name": "gender",
+            "visibility": null,
+            "type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [],
+        "generalizations": [],
+        "interfaces": []
+      }
+    ],
+    "interfaces": [
+      {
+        "id": "_c2LbIBndEe-hRNyRdje1iQ",
+        "name": "Movable",
+        "visibility": "package",
+        "attributes": [],
+        "operations": [
+          {
+            "id": "_4y6g4BnfEe-hRNyRdje1iQ",
+            "name": "move",
+            "visibility": null,
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ]
+      }
+    ],
+    "data_types": [
+      {
+        "id": "_QIrNwBndEe-hRNyRdje1iQ",
+        "name": "Datetime",
+        "visibility": "public"
+      }
+    ],
+    "enumerations": [
+      {
+        "id": "_SKMZkBndEe-hRNyRdje1iQ",
+        "name": "Gender",
+        "visibility": "public",
+        "literals": []
+      }
+    ],
+    "primitive_types": [],
+    "associations": [
+      {
+        "id": "_O-7XcBndEe-hRNyRdje1iQ",
+        "name": null,
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": null,
+        "end2": null
+      },
+      {
+        "id": "__yvkUBngEe-hRNyRdje1iQ",
+        "name": null,
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "_n7j3UBnhEe-hRNyRdje1iQ",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": null,
+          "role": "car",
+          "navigability": true
+        },
+        "end2": null
+      },
+      {
+        "id": "_y63YUBnzEe-hRNyRdje1iQ",
+        "name": "car_ownership",
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "_tAwU4Bn0Ee-hRNyRdje1iQ",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": null,
+          "role": "car",
+          "navigability": true
+        },
+        "end2": {
+          "id": "_uB8FEBn0Ee-hRNyRdje1iQ",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": null,
+          "role": "owner",
+          "navigability": true
+        }
+      }
+    ],
+    "generalizations": [],
+    "dependencies": [],
+    "realizations": [],
+    "interactions": [],
+    "packages": []
+  },
+  "diagrams": {
+    "class_diagrams": [
+      {
+        "id": "_FSh84BnYEe-hRNyRdje1iQ",
+        "description": null,
+        "name": "eclipse-papyrus-car-model-class-diagram",
+        "elements": {
+          "classes": [],
+          "interfaces": [],
+          "data_types": [],
+          "enumerations": [],
+          "primitive_types": [],
+          "associations": [],
+          "generalizations": [],
+          "dependencies": [],
+          "realizations": []
+        }
+      }
+    ],
+    "sequence_diagrams": [
+      {
+        "id": "_va4D4D_FEe-8k4uspykRNg",
+        "description": null,
+        "name": "changeWheelsSequence",
+        "elements": {
+          "interactions": []
+        }
+      },
+      {
+        "id": "_HAmYAD_GEe-8k4uspykRNg",
+        "description": null,
+        "name": "drivingSequenceDiagram",
+        "elements": {
+          "interactions": []
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "xmi_version": "20131001"
+  }
+}

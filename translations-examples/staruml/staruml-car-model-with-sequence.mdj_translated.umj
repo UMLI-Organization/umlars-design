@@ -1,0 +1,625 @@
+{
+  "id": "35ba2c39-fd75-4a0a-bac1-ef9015d6dac1",
+  "name": "Model",
+  "visibility": "public",
+  "elements": {
+    "classes": [
+      {
+        "id": "AAAAAAGPq51VWuu7S/g=",
+        "name": "Person",
+        "visibility": "package",
+        "attributes": [
+          {
+            "id": "AAAAAAGPq9pvBA9Ji0k=",
+            "name": "gender",
+            "visibility": "public",
+            "type": {
+              "idref": "AAAAAAGPq9q11Q+M8Zw="
+            },
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [],
+        "generalizations": [],
+        "interfaces": [
+          {
+            "idref": "c12972c3-35fc-47fc-b21a-1eb1b8137f2e"
+          }
+        ]
+      },
+      {
+        "id": "AAAAAAGPq6P74ewSp88=",
+        "name": "Car",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "AAAAAAGPq9QgWQtMrRw=",
+            "name": "yearOfProduction",
+            "visibility": "private",
+            "type": {
+              "idref": "AAAAAAGPq9RX+gub/B4="
+            },
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [
+          {
+            "id": "AAAAAAGPq9TNCwxotL0=",
+            "name": "drive",
+            "visibility": "public",
+            "parameters": [
+              {
+                "id": "AAAAAAGPq9Yvqw154O8=",
+                "name": "driver",
+                "visibility": "public",
+                "type": {
+                  "idref": "AAAAAAGPq51VWuu7S/g="
+                },
+                "direction": "in"
+              }
+            ],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": [
+          {
+            "idref": "2fbde2d7-0a00-4d7b-9404-3479258f3c0b"
+          }
+        ]
+      },
+      {
+        "id": "AAAAAAGPq6Q+Q+w8rDQ=",
+        "name": "Driver",
+        "visibility": "public",
+        "attributes": [],
+        "operations": [],
+        "generalizations": [
+          {
+            "idref": "95f50bb4-e2fc-4f9a-91c8-5da55b489178"
+          }
+        ],
+        "interfaces": []
+      },
+      {
+        "id": "AAAAAAGPq6SjZOyQ7PY=",
+        "name": "Wheel",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "AAAAAAGPq7M05vuI4ts=",
+            "name": "colour",
+            "visibility": "public",
+            "type": {
+              "idref": "AAAAAAGPq8QrkPzId3o="
+            },
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          },
+          {
+            "id": "AAAAAAGPq9MA3gncCNc=",
+            "name": "circumference",
+            "visibility": "protected",
+            "type": {
+              "idref": "AAAAAAGPq9POfwpz/Uc="
+            },
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_read_only": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null
+          }
+        ],
+        "operations": [
+          {
+            "id": "AAAAAAGPq8gnVv8s0vI=",
+            "name": "isFlat",
+            "visibility": "package",
+            "parameters": [
+              {
+                "id": "AAAAAAGPq9JYEgdl0vw=",
+                "name": null,
+                "visibility": "public",
+                "type": {
+                  "idref": "AAAAAAGPq9I+XQaY150="
+                },
+                "direction": "return"
+              }
+            ],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      }
+    ],
+    "interfaces": [
+      {
+        "id": "AAAAAAGPq6OvgOvoNq4=",
+        "name": "Movable",
+        "visibility": "public",
+        "attributes": [],
+        "operations": [
+          {
+            "id": "AAAAAAGPq9cmkQ4Oz2I=",
+            "name": "move",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ]
+      }
+    ],
+    "data_types": [
+      {
+        "id": "AAAAAAGPq9RX+gub/B4=",
+        "name": "Datetime",
+        "visibility": "public"
+      }
+    ],
+    "enumerations": [
+      {
+        "id": "AAAAAAGPq9q11Q+M8Zw=",
+        "name": "Gender",
+        "visibility": "public",
+        "literals": []
+      }
+    ],
+    "primitive_types": [
+      {
+        "id": "AAAAAAGPq8QrkPzId3o=",
+        "name": "String",
+        "visibility": "public",
+        "kind": "String"
+      },
+      {
+        "id": "AAAAAAGPq9I+XQaY150=",
+        "name": "Boolean",
+        "visibility": "public",
+        "kind": "Boolean"
+      },
+      {
+        "id": "AAAAAAGPq9POfwpz/Uc=",
+        "name": "Real",
+        "visibility": "public",
+        "kind": "Real"
+      }
+    ],
+    "associations": [
+      {
+        "id": "AAAAAAGPq6X4lu00Npg=",
+        "name": "car_ownership",
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "AAAAAAGPq6X4lu01Ewo=",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1..*",
+          "element": {
+            "idref": "AAAAAAGPq51VWuu7S/g="
+          },
+          "role": null,
+          "navigability": true
+        },
+        "end2": {
+          "id": "AAAAAAGPq6X4lu02ArM=",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "0..*",
+          "element": {
+            "idref": "AAAAAAGPq6P74ewSp88="
+          },
+          "role": null,
+          "navigability": true
+        }
+      },
+      {
+        "id": "AAAAAAGPq7Iz+/OP3Ik=",
+        "name": null,
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "AAAAAAGPq7Iz+/OQH1Y=",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "0..*",
+          "element": {
+            "idref": "AAAAAAGPq6SjZOyQ7PY="
+          },
+          "role": null,
+          "navigability": true
+        },
+        "end2": {
+          "id": "AAAAAAGPq7Iz+/ORfeg=",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "0..1",
+          "element": {
+            "idref": "AAAAAAGPq6P74ewSp88="
+          },
+          "role": null,
+          "navigability": true
+        }
+      }
+    ],
+    "generalizations": [
+      {
+        "id": "95f50bb4-e2fc-4f9a-91c8-5da55b489178",
+        "specific": {
+          "idref": "AAAAAAGPq6Q+Q+w8rDQ="
+        },
+        "general": {
+          "idref": "AAAAAAGPq51VWuu7S/g="
+        }
+      }
+    ],
+    "dependencies": [],
+    "realizations": [
+      {
+        "id": "c12972c3-35fc-47fc-b21a-1eb1b8137f2e",
+        "supplier": {
+          "idref": "AAAAAAGPq6OvgOvoNq4="
+        },
+        "client": {
+          "idref": "AAAAAAGPq51VWuu7S/g="
+        }
+      },
+      {
+        "id": "2fbde2d7-0a00-4d7b-9404-3479258f3c0b",
+        "supplier": {
+          "idref": "AAAAAAGPq6OvgOvoNq4="
+        },
+        "client": {
+          "idref": "AAAAAAGPq6P74ewSp88="
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "id": "AAAAAAGPtY8Wkhlny+k=",
+        "name": "car-model-interaction",
+        "visibility": "public",
+        "lifelines": [
+          {
+            "id": "AAAAAAGPtZK5ZiAfJ+E=",
+            "name": "person",
+            "visibility": "public",
+            "represents": null
+          },
+          {
+            "id": "AAAAAAGPtZL6QyA/cG4=",
+            "name": "car",
+            "visibility": "public",
+            "represents": null
+          },
+          {
+            "id": "AAAAAAGPtZoBwiKXo60=",
+            "name": "wheel_summer",
+            "visibility": "public",
+            "represents": null
+          },
+          {
+            "id": "AAAAAAGPtZxBpSMJmCA=",
+            "name": "wheel_winter",
+            "visibility": "public",
+            "represents": null
+          }
+        ],
+        "messages": [
+          {
+            "id": "AAAAAAGPtZyuNSMsj24=",
+            "name": "change_wheels",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": null,
+            "arguments": [],
+            "sort": "delete",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPtZoB9yK1InY=",
+            "name": "change_wheels",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": null,
+            "arguments": [],
+            "sort": "create",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPtaFxiCQx414=",
+            "name": "drive",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": {
+              "idref": "AAAAAAGPq9TNCwxotL0="
+            },
+            "arguments": [],
+            "sort": "synchCall",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPtZsy5yLjCnM=",
+            "name": "is_flat",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": {
+              "idref": "AAAAAAGPq8gnVv8s0vI="
+            },
+            "arguments": [],
+            "sort": "synchCall",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPtaCOsiP37Ns=",
+            "name": "is_flat",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": null,
+            "arguments": [],
+            "sort": "synchCall",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPuRTJ/SW5Pak=",
+            "name": "move",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": {
+              "idref": "AAAAAAGPq9cmkQ4Oz2I="
+            },
+            "arguments": [],
+            "sort": "asynchCall",
+            "kind": "unknown"
+          },
+          {
+            "id": "AAAAAAGPtalb/iTZY5w=",
+            "name": "final_destinantion",
+            "visibility": "public",
+            "send_event": null,
+            "receive_event": null,
+            "signature": null,
+            "arguments": [],
+            "sort": "synchCall",
+            "kind": "unknown"
+          }
+        ],
+        "fragments": [
+          {
+            "id": "6e0fd01b-ba74-467e-8ec9-15c8d6a3db8b",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "22a6adeb-dcc9-4b55-9dbe-5d75a21c08ec",
+            "covered": {
+              "idref": "AAAAAAGPtZxBpSMJmCA="
+            }
+          },
+          {
+            "id": "f4bb53a5-f9ce-440d-bc6c-1875a6ce4c7a",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "69511ae6-c60d-4388-8adb-822b0eb98193",
+            "covered": {
+              "idref": "AAAAAAGPtZoBwiKXo60="
+            }
+          },
+          {
+            "id": "e8775b2b-ce14-4646-b821-a91248fd40d3",
+            "covered": {
+              "idref": "AAAAAAGPtZK5ZiAfJ+E="
+            }
+          },
+          {
+            "id": "a9529d48-b49d-4018-872c-0a13a350d56a",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "18ac2390-a0b9-4de3-82b3-f758fd60f08c",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "861c680b-5cdd-49f1-b51b-cbdfa801f204",
+            "covered": {
+              "idref": "AAAAAAGPtZoBwiKXo60="
+            }
+          },
+          {
+            "id": "8975adde-d7e1-4906-877b-1ceda2211967",
+            "covered": {
+              "idref": "AAAAAAGPtZoBwiKXo60="
+            }
+          },
+          {
+            "id": "2b2f5927-be71-4b25-837b-8a360c898850",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "730b4502-e6b7-43d6-ae2a-161d4765aec0",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "5f5a4792-e3f9-4873-ac80-4e3b954eee76",
+            "covered": {
+              "idref": "AAAAAAGPtZK5ZiAfJ+E="
+            }
+          },
+          {
+            "id": "237f63f6-55fa-4e2d-a81f-ba95fa8f7ae3",
+            "covered": {
+              "idref": "AAAAAAGPtZL6QyA/cG4="
+            }
+          },
+          {
+            "id": "80b1e0c0-69ad-42e7-a1da-cb01f0cc7edd",
+            "covered": {
+              "idref": "AAAAAAGPtZK5ZiAfJ+E="
+            }
+          },
+          {
+            "id": "AAAAAAGPtaOEPSRqKIM=",
+            "name": null,
+            "visibility": "public",
+            "covered": [],
+            "operands": [
+              {
+                "id": "AAAAAAGPtaOEPSRrEl0=",
+                "fragments": [],
+                "guard": "is_flat==False"
+              },
+              {
+                "id": "AAAAAAGPtaP3BiSYZ8E=",
+                "fragments": [],
+                "guard": "else"
+              }
+            ],
+            "operator": "alt"
+          }
+        ]
+      }
+    ],
+    "packages": []
+  },
+  "diagrams": {
+    "class_diagrams": [
+      {
+        "id": "AAAAAAGPtY8tohmBP+s=",
+        "description": null,
+        "name": "ClassDiagram",
+        "elements": {
+          "classes": [
+            {
+              "idref": "AAAAAAGPq51VWuu7S/g="
+            },
+            {
+              "idref": "AAAAAAGPq6P74ewSp88="
+            },
+            {
+              "idref": "AAAAAAGPq6Q+Q+w8rDQ="
+            },
+            {
+              "idref": "AAAAAAGPq6SjZOyQ7PY="
+            }
+          ],
+          "interfaces": [
+            {
+              "idref": "AAAAAAGPq6OvgOvoNq4="
+            }
+          ],
+          "data_types": [
+            {
+              "idref": "AAAAAAGPq9RX+gub/B4="
+            }
+          ],
+          "enumerations": [
+            {
+              "idref": "AAAAAAGPq9q11Q+M8Zw="
+            }
+          ],
+          "primitive_types": [
+            {
+              "idref": "AAAAAAGPq8QrkPzId3o="
+            },
+            {
+              "idref": "AAAAAAGPq9I+XQaY150="
+            },
+            {
+              "idref": "AAAAAAGPq9POfwpz/Uc="
+            }
+          ],
+          "associations": [
+            {
+              "idref": "AAAAAAGPq6X4lu00Npg="
+            },
+            {
+              "idref": "AAAAAAGPq7Iz+/OP3Ik="
+            }
+          ],
+          "generalizations": [],
+          "dependencies": [],
+          "realizations": []
+        }
+      }
+    ],
+    "sequence_diagrams": [
+      {
+        "id": "AAAAAAGPtY8WkhloV/E=",
+        "description": null,
+        "name": "SequenceDiagram",
+        "elements": {
+          "interactions": [
+            {
+              "idref": "AAAAAAGPtY8Wkhlny+k="
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {}
+}
