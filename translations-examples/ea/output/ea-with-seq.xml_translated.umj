@@ -1,0 +1,377 @@
+{
+  "id": "0cceed1d-851c-4764-9341-f5c362f1877a",
+  "name": "EA_Model",
+  "visibility": "public",
+  "elements": {
+    "classes": [
+      {
+        "id": "EAID_0D1E8743_F4D2_4882_B2B5_A7CB520C3685",
+        "name": "Car",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "EAID_LI000002_70DB_4828_89E3_A3FB5E2DCFDE",
+            "name": "yearOfProduction",
+            "visibility": "private",
+            "type": {
+              "idref": "EAID_5FFEFB03_395F_4f90_BF60_4FEFDAEC56D8"
+            },
+            "is_static": false,
+            "is_ordered": false,
+            "is_unique": true,
+            "is_read_only": false,
+            "is_query": null,
+            "is_derived": false,
+            "is_derived_union": false
+          }
+        ],
+        "operations": [
+          {
+            "id": "EAID_EFB39CE1_920E_4854_9DC8_D33DAB3A6EE2",
+            "name": "canDrive",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          },
+          {
+            "id": "EAID_CDA44529_E228_48a3_9017_06235B5D5943",
+            "name": "changeWheels",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          },
+          {
+            "id": "EAID_FE8F17A8_72CA_4dd6_88B7_D1AF94406719",
+            "name": "drive",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "EAID_9AE8155B_E7DE_45e3_BF27_71E4AD7AB85E",
+        "name": "Driver",
+        "visibility": "public",
+        "attributes": [],
+        "operations": [
+          {
+            "id": "EAID_689E5279_A218_4b2a_A514_95BB2B377942",
+            "name": "drive",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "EAID_14793615_C209_4954_8BD9_53C352A6DEEF",
+        "name": "Person",
+        "visibility": "package",
+        "attributes": [
+          {
+            "id": "EAID_LI000008_FF0E_43f0_802C_E749E364827A",
+            "name": "gender",
+            "visibility": "public",
+            "type": {
+              "idref": "EAID_519E41ED_EA53_4286_BB76_B965B6E52666"
+            },
+            "is_static": false,
+            "is_ordered": false,
+            "is_unique": true,
+            "is_read_only": false,
+            "is_query": null,
+            "is_derived": false,
+            "is_derived_union": false
+          }
+        ],
+        "operations": [],
+        "generalizations": [],
+        "interfaces": []
+      },
+      {
+        "id": "EAID_2029428D_92CA_4532_BB28_D489DED0C150",
+        "name": "Wheel",
+        "visibility": "public",
+        "attributes": [
+          {
+            "id": "EAID_LI000012_2016_4c68_8A48_07FF33718A23",
+            "name": "circumference",
+            "visibility": "protected",
+            "type": null,
+            "is_static": false,
+            "is_ordered": false,
+            "is_unique": true,
+            "is_read_only": false,
+            "is_query": null,
+            "is_derived": false,
+            "is_derived_union": false
+          },
+          {
+            "id": "EAID_LI000014_7066_4fc2_B14E_FEF24E207A20",
+            "name": "colour",
+            "visibility": "public",
+            "type": null,
+            "is_static": false,
+            "is_ordered": false,
+            "is_unique": true,
+            "is_read_only": false,
+            "is_query": null,
+            "is_derived": false,
+            "is_derived_union": false
+          },
+          {
+            "id": "EAID_LI000016__BA2E_48a6_9A53_199F9E8742AF",
+            "name": "car",
+            "visibility": "public",
+            "type": {
+              "idref": "EAID_0D1E8743_F4D2_4882_B2B5_A7CB520C3685"
+            },
+            "is_static": false,
+            "is_ordered": false,
+            "is_unique": true,
+            "is_read_only": false,
+            "is_query": null,
+            "is_derived": false,
+            "is_derived_union": false
+          }
+        ],
+        "operations": [
+          {
+            "id": "EAID_1D561514_364E_44e4_880E_D4D072F0FFB6",
+            "name": "isFlat",
+            "visibility": "package",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ],
+        "generalizations": [],
+        "interfaces": []
+      }
+    ],
+    "interfaces": [
+      {
+        "id": "EAID_5C67B276_2632_4fed_900A_19C097FAFBD5",
+        "name": "Movable",
+        "visibility": "public",
+        "attributes": [],
+        "operations": [
+          {
+            "id": "EAID_FEA38905_B5B8_4d11_9F83_1A267C38F189",
+            "name": "move",
+            "visibility": "public",
+            "parameters": [],
+            "return_type": null,
+            "is_static": null,
+            "is_ordered": null,
+            "is_unique": null,
+            "is_query": null,
+            "is_derived": null,
+            "is_derived_union": null,
+            "is_abstract": false,
+            "exceptions": []
+          }
+        ]
+      }
+    ],
+    "data_types": [
+      {
+        "id": "EAID_5FFEFB03_395F_4f90_BF60_4FEFDAEC56D8",
+        "name": "Datetime",
+        "visibility": "public"
+      }
+    ],
+    "enumerations": [
+      {
+        "id": "EAID_519E41ED_EA53_4286_BB76_B965B6E52666",
+        "name": "Gender",
+        "visibility": "public",
+        "literals": []
+      }
+    ],
+    "primitive_types": [],
+    "associations": [
+      {
+        "id": "EAID_11AD4D8E_CF6B_4626_9559_C7FB6BE67F59",
+        "name": "car_ownership",
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "EAID_LI000004__CF6B_4626_9559_C7FB6BE67F59",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": {
+            "idref": "EAID_14793615_C209_4954_8BD9_53C352A6DEEF"
+          },
+          "role": "owner",
+          "navigability": true
+        },
+        "end2": {
+          "id": "EAID_LI000010__CF6B_4626_9559_C7FB6BE67F59",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": {
+            "idref": "EAID_0D1E8743_F4D2_4882_B2B5_A7CB520C3685"
+          },
+          "role": "car",
+          "navigability": true
+        }
+      },
+      {
+        "id": "EAID_A9C3499C_BA2E_48a6_9A53_199F9E8742AF",
+        "name": null,
+        "visibility": "public",
+        "type": "association",
+        "direction": "bidirectional",
+        "end1": {
+          "id": "EAID_LI000006__BA2E_48a6_9A53_199F9E8742AF",
+          "name": null,
+          "visibility": "public",
+          "multiplicity": "1",
+          "element": {
+            "idref": "EAID_2029428D_92CA_4532_BB28_D489DED0C150"
+          },
+          "role": "wheel",
+          "navigability": true
+        },
+        "end2": null
+      }
+    ],
+    "generalizations": [],
+    "dependencies": [],
+    "realizations": [],
+    "interactions": [],
+    "packages": [
+      {
+        "id": "EAPK_E8A64A52_902A_43ab_AF9D_2CD7F720EA0C",
+        "name": "CarModelPackage",
+        "visibility": "public",
+        "elements": {
+          "idref": "c247adaf-6708-454c-a60e-f0741e81acd4"
+        }
+      }
+    ]
+  },
+  "diagrams": {
+    "class_diagrams": [
+      {
+        "id": "EAID_29D12092_97B6_4cb8_B732_48299673D813",
+        "description": null,
+        "name": "Starter Class Diagram",
+        "elements": {
+          "classes": [
+            {
+              "idref": "EAID_9AE8155B_E7DE_45e3_BF27_71E4AD7AB85E"
+            },
+            {
+              "idref": "EAID_2029428D_92CA_4532_BB28_D489DED0C150"
+            },
+            {
+              "idref": "EAID_14793615_C209_4954_8BD9_53C352A6DEEF"
+            },
+            {
+              "idref": "EAID_0D1E8743_F4D2_4882_B2B5_A7CB520C3685"
+            }
+          ],
+          "interfaces": [
+            {
+              "idref": "EAID_5C67B276_2632_4fed_900A_19C097FAFBD5"
+            }
+          ],
+          "data_types": [
+            {
+              "idref": "EAID_5FFEFB03_395F_4f90_BF60_4FEFDAEC56D8"
+            }
+          ],
+          "enumerations": [
+            {
+              "idref": "EAID_519E41ED_EA53_4286_BB76_B965B6E52666"
+            }
+          ],
+          "primitive_types": [],
+          "associations": [
+            {
+              "idref": "EAID_11AD4D8E_CF6B_4626_9559_C7FB6BE67F59"
+            },
+            {
+              "idref": "EAID_A9C3499C_BA2E_48a6_9A53_199F9E8742AF"
+            }
+          ],
+          "generalizations": [],
+          "dependencies": [],
+          "realizations": []
+        }
+      }
+    ],
+    "sequence_diagrams": [
+      {
+        "id": "EAID_ABF14154_95C0_45d0_891B_36904E7B889D",
+        "description": null,
+        "name": "changeWheelsSequence",
+        "elements": {
+          "interactions": []
+        }
+      },
+      {
+        "id": "EAID_9DBD5F06_8F25_4c2f_9225_CE06EF004BA8",
+        "description": null,
+        "name": "Driving Seq Diag",
+        "elements": {
+          "interactions": []
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "exporter": "Enterprise Architect",
+    "exporterVersion": "6.5",
+    "exporterID": "1704"
+  }
+}
