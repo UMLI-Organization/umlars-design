@@ -1,5 +1,5 @@
 {
-  "id": "0cceed1d-851c-4764-9341-f5c362f1877a",
+  "id": "73ebd86e-8a86-457e-bb5e-7cbc0a745cb1",
   "name": "EA_Model",
   "visibility": "public",
   "elements": {
@@ -294,7 +294,49 @@
         "name": "CarModelPackage",
         "visibility": "public",
         "elements": {
-          "idref": "c247adaf-6708-454c-a60e-f0741e81acd4"
+          "interactions": [],
+          "classes": [
+            {
+              "idref": "EAID_0D1E8743_F4D2_4882_B2B5_A7CB520C3685"
+            },
+            {
+              "idref": "EAID_9AE8155B_E7DE_45e3_BF27_71E4AD7AB85E"
+            },
+            {
+              "idref": "EAID_14793615_C209_4954_8BD9_53C352A6DEEF"
+            },
+            {
+              "idref": "EAID_2029428D_92CA_4532_BB28_D489DED0C150"
+            }
+          ],
+          "interfaces": [
+            {
+              "idref": "EAID_5C67B276_2632_4fed_900A_19C097FAFBD5"
+            }
+          ],
+          "data_types": [
+            {
+              "idref": "EAID_5FFEFB03_395F_4f90_BF60_4FEFDAEC56D8"
+            }
+          ],
+          "enumerations": [
+            {
+              "idref": "EAID_519E41ED_EA53_4286_BB76_B965B6E52666"
+            }
+          ],
+          "primitive_types": [],
+          "associations": [
+            {
+              "idref": "EAID_11AD4D8E_CF6B_4626_9559_C7FB6BE67F59"
+            },
+            {
+              "idref": "EAID_A9C3499C_BA2E_48a6_9A53_199F9E8742AF"
+            }
+          ],
+          "generalizations": [],
+          "dependencies": [],
+          "realizations": [],
+          "packages": []
         }
       }
     ]
