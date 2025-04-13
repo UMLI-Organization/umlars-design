@@ -1,0 +1,358 @@
+{
+    "id": "e08493f7-c817-4eed-bf9f-823e811c3ba3",
+    "name": "EA_Model",
+    "visibility": "public",
+    "elements": {
+        "classes": [
+            {
+                "id": "EAID_E63C7CD0_ED93_4dbf_81EC_D7220335B4A5",
+                "name": "Class A",
+                "visibility": "public",
+                "attributes": [
+                    {
+                        "id": "EAID_LI000002_C488_46fc_B3C1_49F5520913D0",
+                        "name": "Attribute A",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    },
+                    {
+                        "id": "EAID_LI000004_91E6_4e1a_AFC9_963DD07F0D7B",
+                        "name": "Attribute B",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    }
+                ],
+                "operations": [
+                    {
+                        "id": "EAID_DFE9155B_E023_4fb1_A6E1_028771AA0811",
+                        "name": "Operation A",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    },
+                    {
+                        "id": "EAID_A793C28D_CC91_4ebc_94D7_35794F9C8264",
+                        "name": "Operation B",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    }
+                ],
+                "generalizations": [],
+                "interfaces": []
+            },
+            {
+                "id": "EAID_941961C5_AEC6_44d9_AE49_F1A09430E6BF",
+                "name": "Class B",
+                "visibility": "public",
+                "attributes": [
+                    {
+                        "id": "EAID_LI000010_06F9_4155_8E02_C7FB671F267B",
+                        "name": "Attribute A",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    },
+                    {
+                        "id": "EAID_LI000012_1771_4799_B979_26A740630364",
+                        "name": "Attribute B",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    }
+                ],
+                "operations": [
+                    {
+                        "id": "EAID_2FB378D7_4761_4d52_8D34_32C66AF6E83F",
+                        "name": "Operation A",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    },
+                    {
+                        "id": "EAID_553450FB_D249_4ab0_ABE9_4DADDE5538A1",
+                        "name": "Operation B",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    }
+                ],
+                "generalizations": [],
+                "interfaces": []
+            },
+            {
+                "id": "EAID_8E65638F_FEDD_4248_A151_D3D0E94E2745",
+                "name": "Class C",
+                "visibility": "public",
+                "attributes": [
+                    {
+                        "id": "EAID_LI000016_B846_460c_B710_81139611D908",
+                        "name": "Attribute A",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    },
+                    {
+                        "id": "EAID_LI000018_0354_4aec_9AD5_43C08E4B4A37",
+                        "name": "Attribute B",
+                        "visibility": "private",
+                        "type": null,
+                        "is_static": false,
+                        "is_ordered": false,
+                        "is_unique": true,
+                        "is_read_only": false,
+                        "is_query": null,
+                        "is_derived": false,
+                        "is_derived_union": false
+                    }
+                ],
+                "operations": [
+                    {
+                        "id": "EAID_1358DDC0_ECA0_4893_B37A_1332D3F0C428",
+                        "name": "Operation A",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    },
+                    {
+                        "id": "EAID_F84C6BD8_2ED1_479f_B1FB_4BB0F6B9EBA2",
+                        "name": "Operation B",
+                        "visibility": "public",
+                        "parameters": [],
+                        "return_type": null,
+                        "is_static": null,
+                        "is_ordered": null,
+                        "is_unique": null,
+                        "is_query": null,
+                        "is_derived": null,
+                        "is_derived_union": null,
+                        "is_abstract": false,
+                        "exceptions": []
+                    }
+                ],
+                "generalizations": [],
+                "interfaces": []
+            }
+        ],
+        "interfaces": [],
+        "data_types": [],
+        "enumerations": [],
+        "primitive_types": [],
+        "associations": [
+            {
+                "id": "EAID_81F7AA5F_64D6_4483_B15A_9EDF408F6840",
+                "name": null,
+                "visibility": "public",
+                "type": "association",
+                "direction": "bidirectional",
+                "end1": {
+                    "id": "EAID_LI000006__64D6_4483_B15A_9EDF408F6840",
+                    "name": null,
+                    "visibility": "public",
+                    "multiplicity": "1",
+                    "element": {
+                        "idref": "EAID_8E65638F_FEDD_4248_A151_D3D0E94E2745"
+                    },
+                    "role": null,
+                    "navigability": true
+                },
+                "end2": {
+                    "id": "EAID_LI000020__64D6_4483_B15A_9EDF408F6840",
+                    "name": null,
+                    "visibility": "public",
+                    "multiplicity": "1",
+                    "element": {
+                        "idref": "EAID_E63C7CD0_ED93_4dbf_81EC_D7220335B4A5"
+                    },
+                    "role": "role a",
+                    "navigability": true
+                }
+            },
+            {
+                "id": "EAID_E5B3382E_C4B9_407c_A383_AD1BDDF5C422",
+                "name": "Association A",
+                "visibility": "public",
+                "type": "association",
+                "direction": "bidirectional",
+                "end1": {
+                    "id": "EAID_LI000008__C4B9_407c_A383_AD1BDDF5C422",
+                    "name": null,
+                    "visibility": "public",
+                    "multiplicity": "1",
+                    "element": {
+                        "idref": "EAID_941961C5_AEC6_44d9_AE49_F1A09430E6BF"
+                    },
+                    "role": "role b",
+                    "navigability": true
+                },
+                "end2": {
+                    "id": "EAID_LI000014__C4B9_407c_A383_AD1BDDF5C422",
+                    "name": null,
+                    "visibility": "public",
+                    "multiplicity": "1",
+                    "element": {
+                        "idref": "EAID_E63C7CD0_ED93_4dbf_81EC_D7220335B4A5"
+                    },
+                    "role": "role a",
+                    "navigability": true
+                }
+            }
+        ],
+        "generalizations": [],
+        "dependencies": [],
+        "realizations": [],
+        "interactions": [],
+        "packages": [
+            {
+                "id": "EAPK_53FD35CE_1AC8_4eb3_837B_A43049AEA5FE",
+                "name": "Basic Class Diagram with Attributes and Operations",
+                "visibility": "public",
+                "elements": {
+                    "interactions": [],
+                    "classes": [
+                        {
+                            "idref": "EAID_E63C7CD0_ED93_4dbf_81EC_D7220335B4A5"
+                        },
+                        {
+                            "idref": "EAID_941961C5_AEC6_44d9_AE49_F1A09430E6BF"
+                        },
+                        {
+                            "idref": "EAID_8E65638F_FEDD_4248_A151_D3D0E94E2745"
+                        }
+                    ],
+                    "interfaces": [],
+                    "data_types": [],
+                    "enumerations": [],
+                    "primitive_types": [],
+                    "associations": [
+                        {
+                            "idref": "EAID_81F7AA5F_64D6_4483_B15A_9EDF408F6840"
+                        },
+                        {
+                            "idref": "EAID_E5B3382E_C4B9_407c_A383_AD1BDDF5C422"
+                        }
+                    ],
+                    "generalizations": [],
+                    "dependencies": [],
+                    "realizations": [],
+                    "packages": []
+                }
+            }
+        ]
+    },
+    "diagrams": {
+        "class_diagrams": [
+            {
+                "id": "EAID_273DF9F0_0D33_42c1_A84B_86493AF661DD",
+                "description": null,
+                "name": "Basic Class Diagram with Attributes and Operations",
+                "elements": {
+                    "classes": [
+                        {
+                            "idref": "EAID_8E65638F_FEDD_4248_A151_D3D0E94E2745"
+                        },
+                        {
+                            "idref": "EAID_941961C5_AEC6_44d9_AE49_F1A09430E6BF"
+                        },
+                        {
+                            "idref": "EAID_E63C7CD0_ED93_4dbf_81EC_D7220335B4A5"
+                        }
+                    ],
+                    "interfaces": [],
+                    "data_types": [],
+                    "enumerations": [],
+                    "primitive_types": [],
+                    "associations": [
+                        {
+                            "idref": "EAID_81F7AA5F_64D6_4483_B15A_9EDF408F6840"
+                        },
+                        {
+                            "idref": "EAID_E5B3382E_C4B9_407c_A383_AD1BDDF5C422"
+                        }
+                    ],
+                    "generalizations": [],
+                    "dependencies": [],
+                    "realizations": []
+                }
+            }
+        ],
+        "sequence_diagrams": []
+    },
+    "metadata": {
+        "exporter": "Enterprise Architect",
+        "exporterVersion": "6.5",
+        "exporterID": "1628"
+    }
+}
